@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+  <style>
+    #box{
+      width: 100%;
+      height: calc(100vh -62px -74px);
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      gap:20px;
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(red, green, blue, alpha);
+    }
+    #box{
+      background-color: rgba(217, 227, 227, 0.684);
+    }
+    #box img {
+      width: 250px;
+      height: 300px;
+    }
+    .card{
+      background-color: rgba(138, 223, 232, 0.316);
+      border-radius: 10px;
+      border: 1px solid ;
+    }
+    .card-img-top{
+      filter: blur(5px);
+    }
+    .card-img-top:hover{
+      filter: blur(0px);
+      transition: all 0.8s;
+    }
+    .card{
+      padding: 20px;
+
+    }
+    .card:hover{ 
+        width: 300px; 
+        height: 500px; 
+        margin-top: 18px; 
+        -moz-box-shadow:    0 0 50px black; 
+        -webkit-box-shadow: 0 0 50px black; 
+        box-shadow:         0 0 50px black;     
+    }
+    .card-title{
+      color: black;
+    }
+  </style>
+</head>
+<body>
+<!-- As a heading -->
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Navbar</span>
+  </div>
+</nav>
+  <div id="box"></div>
+  <footer class="page-footer">
+  <div class="footer-copyright">
+    <div class="container">
+      Copyright © 2024 by Vali-Teach. All Rights Reserved
+    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>
